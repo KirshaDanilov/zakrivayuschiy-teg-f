@@ -214,13 +214,10 @@ main {
 .floppy {
   position: relative;
   z-index: 2;
-  fill: white;
-  mix-blend-mode: difference;
-}
-
-.floppy-save {
   max-width: 21px;
   height: auto;
+  fill: #fff;
+  mix-blend-mode: difference;
 }
 
 .button-ok {
