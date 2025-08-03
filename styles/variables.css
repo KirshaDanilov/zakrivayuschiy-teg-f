@@ -1,14 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --main-font: 'Inter-Variable';
-    --accent-font: 'PressStart2P-Regular';
+    --accent-font: 'PressStart2P';
     --main-weight: 410;
     --title-weight: 715;
     --block-width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
     --save-button-width: clamp(19.125rem, 18.487rem + 2.723vw, 20.938rem);
     --title-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
     --title-accent-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
-    --stroke-color: rgba(255, 255, 255, 0.5);
+    --stroke-color: rgba(255, 255, 255);
     --accent-color: #000;
     --hover-color: #fff;
     --contour-color: #000;

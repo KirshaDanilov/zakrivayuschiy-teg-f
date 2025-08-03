@@ -7,7 +7,7 @@
 }
 
 .like-icon.is-liked {
-  animation: scale 0.3s ease-in backwards;
+  animation: scale 0.3s ease-in;
   animation-delay: 0.1s;
 }
 
@@ -21,6 +21,7 @@
 }
 
 .main-body {
+  fill: transparent;
   transition: fill 0.3s linear 0s;
 }
 
@@ -36,10 +37,11 @@
 
 .like-icon.is-liked .main-body {
   fill: var(--animation-fill-color);
-  
+  transition: fill 0.3s linear 0.05s;
 }
 
 .core {
+  fill: transparent;
   transition: fill 0.3s linear 0.03s;
 }
 
@@ -63,7 +65,7 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparksopacity 0.3s ease-in backwards;
+  animation: sparksopacity 0.3s ease-in;
   animation-delay: 0.3s;
 }
 
