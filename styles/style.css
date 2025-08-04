@@ -3,8 +3,8 @@
   font-family: var(--main-font), sans-serif;
   font-variation-settings: 'wght' var(--main-weight);
   background-image:
-  repeating-linear-gradient(to right, #d3d3d3 2px, transparent 2px),
-  repeating-linear-gradient(to bottom, #d3d3d3 2px, transparent 2px),
+  repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+  repeating-linear-gradient(180deg, #d3d3d3 0px 2px, transparent 2px 4px),
   linear-gradient(to bottom, #e7e7e7 0.1%, #1a1a1a);
   background-size: cover;
   background-attachment: fixed;
@@ -70,6 +70,7 @@ main {
 .buttons {
   display: flex;
   justify-content: end;
+  align-items: center;
   gap: 7px;
 }
 
@@ -94,8 +95,9 @@ main {
   background-color: transparent;
   border: solid 2px var(--hover-color);
   transition: border 0.3s ease;
-  width: 38px;
-  height: 38px;
+  inline-size: 43px;
+  block-size: 39px;
+  padding: 0;
 }
 
 .card__icon-button:focus {
@@ -108,12 +110,11 @@ main {
 
 .like-icon {
   width: 100%;
-  height: 100%;
 }
 
 .card__like-button {
-  min-width: 130px;
-  max-height: 38px;
+  inline-size: 130px;
+  block-size: 39px;
 }
 
 .background-buttons {
@@ -274,7 +275,7 @@ dialog::backdrop {
  .save-button {
   flex-direction: column;
   }
- .floppy-save {
+ .floppy {
   max-width: 28px;
   height: auto;
  }
